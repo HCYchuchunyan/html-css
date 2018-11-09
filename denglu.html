@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/7-yanxuan.css">
+	<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+	<style>
+		.denglu{
+			height: 500px;
+			background-color: RGB(229,230,234);
+			border:1px solid #fff;
+		}
+		.content{
+			width: 384px;
+			height: 400px;
+			background-color: #fff;
+			margin:45px auto;
+		}
+		.content a:hover,
+		.content a:hover i{
+			color: #fff;
+		}
+		#tou{
+			position: relative;
+			z-index: 1;
+			height: 40px;
+			background-color: #333;
+		}
+		#tou div{
+			color: white;
+		}
+		.denglu_top{
+			width: 300px;
+			height: 302px;
+			margin:0 auto;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			position: relative;
+		}
+		.denglu_top li{
+			font-size: 20px;
+		}
+		.denglu_top ul{
+			display: flex;
+			justify-content: space-around;
+		}
+		.shouji p{
+			margin-left: 180px;
+			font-size: 14px;
+			padding:10px 0;
+		}
+		.denglu_top .hao,.yanzheng,.btn{
+			width: 300px;
+			height: 40px;
+			border: 1px solid #ccc;
+			position: relative;
+			border-radius: 5px;
+		}
+		.denglu_top i{
+			font-size: 26px;
+			color: #ccc;
+			padding:5px 10px;
+		}
+		.denglu_top input{
+			width: 250px;
+			height: 30px;
+			border:none;
+			border-left: 1px  solid #ccc;
+			position: absolute;
+			top: 4px;
+		}
+		.yanzheng>div{
+			width: 90px;
+			position: absolute;
+			right: 0;top: 0; bottom: 0;
+			background-color: #b4a078;
+			font-size: 16px;
+			border: 1px  solid #ccc;
+			padding-top: 8px;
+
+		}
+		.btn{
+			background-color: #b4a078;
+			margin-top: 30px;
+			font-size: 25px;
+			text-align: center;
+			padding-top: 6px;
+			color: #fff;
+		}
+		.denglu_bottom{
+			/*height: 50px;*/
+			padding-top: 18px;
+			background-color: RGB(245,243,239);
+		}
+		.denglu_bottom_center{
+			width: 300px;
+			height: 50px;
+			margin:0 auto;
+		}
+		.denglu_bottom_center i{
+			font-size: 30px;
+			color: #ccc;
+		}
+		.zhanwei{
+			height: 40px;
+		}
+		.shouji{
+			position: absolute;
+			top: 60px;left: 0;
+		}
+		.youxiang{
+			position: absolute;
+			top: 60px;left: 0;
+			background-color: #fff;
+			display: none;
+		}
+		.yxdl:hover .youxiang{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="con">
+		<div class="top">
+			<div class="content" id="tou">
+				<div class="left">
+					<div class="aa">
+						<a href="#">好的生活没那么贵</a>
+					</div>
+					<div class="bb"></div>
+				</div>
+			    <div class="right">
+			    	<ul>
+			    		<li><a href="./denglu.html">登录</a></li>
+			    		<li><a href="#">注册</a></li>
+			    		<li><a href="#">我的订单</a></li>
+			    		<li><a href="#">会员</a></li>
+			    		<li><a href="#">甄选家</a></li>
+			    		<li><a href="#">企业采购</a></li>
+			    		<li><a href="#">客户服务</a></li>
+			    		<li><a href="#">APP</a></li>
+
+			    	</ul>
+			    </div>
+			</div>
+		</div>
+		<div class="center">
+			<div class="top">
+			    <div class="sousuo">
+			    	<form action="">
+			    	   <input type="text" name="sousuo" placeholder="网易智造减压按摩腰靠">
+			    	   <i class="fa fa-search"></i>
+			    	   <i class="fa fa-shopping-cart "></i>
+			    	</form>
+			    </div>
+				<div class="yanxuan">
+					<img src="./images/yanxuan/yan.png" alt="">
+				</div>
+			</div>
+			<div class="bot">
+				<div class="cc">
+					<ul>
+						<li><a href="#">首页</a></li>
+					    <li class="jia">
+					    	<a href="#">家居</a>
+					    	<div class="jj">
+					    		<div class="cen">
+					    			<ul class="cen_jia dada">
+					    				<li><a href="#"><img src="./images/yanxuan/jia01.png"><p>夏凉</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia02.png"><p>床品件套</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia03.png"><p>被枕</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia04.png"><p>家具</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia05.png"><p>灯具</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia06.png"><p>收纳</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia07.png"><p>布艺软装</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia08.png"><p>家饰</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia09.png"><p>旅行用品</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia10.png"><p>晾晒除味</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia11.png"><p>家庭医疗</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia12.png"><p>宠物</p></a></li>
+					    			</ul>
+					    		</div>
+					    	</div>
+					    </li>
+					    <li class="xie">
+					    	<a href="#">鞋装配式</a>
+					    	<div class="jj">
+					    		<div class="cen">
+					    			<ul class="cen_xie dada">
+					    				<li><a href="#"><img src="./images/yanxuan/jia01.png"><p>行李箱</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia02.png"><p>女士包袋</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia03.png"><p>男士包袋</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia04.png"><p>钱包及小皮件</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia05.png"><p>女鞋</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia06.png"><p>男鞋</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia07.png"><p>拖鞋</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia08.png"><p>鞋配</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia09.png"><p>袜子</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia10.png"><p>丝袜</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia11.png"><p>配饰</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia12.png"><p>眼镜</p></a></li>
+					    				<li><a href="#"><img src="./images/yanxuan/jia12.png"><p>围巾件套</p></a></li>
+					    			</ul>
+					    		</div>
+					    	</div>
+					    </li>
+					    <li><a href="#">服装</a></li>
+					    <li><a href="#">电器</a></li>
+					    <li><a href="#">洗护</a></li>
+					    <li><a href="#">饮食</a></li>
+					    <li><a href="#">餐厨</a></li>
+					    <li><a href="#">婴童</a></li>
+					    <li><a href="#">问题</a></li>
+					    <li><a href="#">特色区</a></li>
+					    <li><a href="#">为你严选</a></li>
+					    <li><a href="#">众筹</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="denglu">
+				<div class="content">
+	    	<div class="denglu_top">
+	    	    <ul>
+	    			<li  class="sjdl">
+	    			    <a href="#">手机登录</a>
+	    			    <div class="shouji" style="height:268px;">
+	    		            <p>使用密码验证登录</p>
+	    			        <div class="hao">
+	    			            <i class="fa fa-mobile"></i>
+	    			            <input type="text" placeholder="请输入手机号">
+	    		            </div>
+	    		            <img src="./images/yanxuan/denglu_01.png">
+	    		            <div class="yanzheng">
+	    			            <input type="text" placeholder="请输入短信验证码">
+	    			            <div>获取验证码</div>
+	    		            </div>
+	    		            <div class="btn">登录</div>
+	    		         </div>
+	    			</li>
+
+
+	    			<li><b>|</b></li>
+
+
+	    			<li class="yxdl">
+	    			   <a href="#">邮箱登录</a>
+	    			   <div class="youxiang"  style="height:268px;">
+	    		            <div class="zhanwei"></div>
+	    			        <div class="hao">
+	    			            <i class="fa fa-user"></i>
+	    			            <input type="text" placeholder="请输入邮箱号">
+	    		            </div>
+	    		            <div class="zhanwei"></div>
+	    		            <div class="hao">
+	    			            <i class="fa fa-unlock-alt"></i>
+	    			            <input type="text" placeholder="请输入邮箱密码">
+	    		            </div>
+	    		            <div class="btn">登录</div>
+	    		        </div>
+	    			</li>
+	    		</ul>
+	    		
+	    	</div>
+		    <div class="denglu_bottom">
+		    	<div class="denglu_bottom_center">
+		    	    <a href="#"><i class="fa fa-weixin"></i></a>&nbsp;&nbsp;
+		    	    <a href="#"><i class="fa fa-qq"></i></a>&nbsp;&nbsp;
+		    	    <a href="#"><i class="fa fa-weibo"></i></a>&nbsp;&nbsp;
+		    		<a href="#">手机快捷注册</a>&nbsp;&nbsp;
+		    		<a href="#">遇到问题？</a>
+		    	</div>
+		    </div>
+	    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="footer">
+		<div class="ftop">
+			<div class="fcen">
+				<div class="kehu">
+					<h4>客户服务</h4><br>
+					<a href="#"><div><i class="fa fa-angellist "></i><p>在线客服</p></div></a>
+					<a href="#"><div><i class="fa fa-comment"></i><p>客户反馈</p></div></a>
+				</div>
+				<div >
+					<h4>何为严选</h4><br><br>
+					<p>网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</p>
+					<span>关注我们:</span>
+					<i class="fa fa-user-circle " style="color:lightblue"></i>&nbsp;&nbsp;
+					<i class="fa fa-weixin" style="color:green;"></i>&nbsp;&nbsp;
+					<i class="fa fa-weibo" style="color:#f54343;"></i>
+				</div>
+				<div>
+					<h4>扫码下载严选APP</h4><br><br>
+					<img src="images/yanxuan/erweima.png" style="width:100px;height:100px;">
+				</div>
+			</div>
+		</div>
+		<div class="fbot">
+			<!-- <div> -->
+				<div class="fbcen">
+					<ul class="topul">
+						<li><i class="fa fa-opera"></i>&nbsp;&nbsp;&nbsp;&nbsp;30天无忧退换货</li>
+						<li><i class="fa fa-opera"></i>&nbsp;&nbsp;&nbsp;&nbsp;满88元免邮费</li>
+						<li><i class="fa fa-opera"></i>&nbsp;&nbsp;&nbsp;&nbsp;网易品质保证</li>
+					</ul>
+					<div></div>
+					<ul class="botul">
+						<li><a href="#">关于我们</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">帮助中心</a></li>
+						<li></li>
+						<li><a href="#">售后服务</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">配送与验收</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">商务合作</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">企业采购</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">开放平台</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">搜索推荐</a></li>
+						<li><b>|</b></li>
+						<li><a href="#">友情链接</a></li>
+					</ul>
+					<div>网易公司版权所有 © 1997-2018   食品经营许可证：JY13301080111719 出版物经营许可证：新出发滨字第0132号 单用途商业预付卡备案证：330100AAC0024</div>
+				</div>
+				<img src="./images/yanxuan/huizhang.png">
+			<!-- </div> -->
+		</div>
+	</div>
+	</div>
+</body>
+</html>
